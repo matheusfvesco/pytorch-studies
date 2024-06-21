@@ -1,6 +1,6 @@
 # Pytorch Studies
 
-A collection of Jupyter notebooks designed to help me (and others) learn PyTorch and check my learning through practical exercises and projects 
+A collection of Jupyter notebooks designed to help me (and others) learn PyTorch and check my learning through practical exercises and projects
 
 ---
 
