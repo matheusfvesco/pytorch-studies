@@ -10,7 +10,7 @@ echo "| ---- | ---- |" >> BADGES.md
 
 # creates markdown file
 for file in $BADGE_IPYNB_FILES; do
-  echo "| ${file} | <a href="https://colab.research.google.com/github/MYNAME/pytorch-studies/blob/main/${file}" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|" >> BADGES.md
+  echo "| ${file} | <a href="https://colab.research.google.com/github/matheusfvesco/pytorch-studies/blob/main/${file}" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|" >> BADGES.md
 done
 
 # Use awk to replace content between <!-- BADGES --> and <!-- SEGDAB -->
