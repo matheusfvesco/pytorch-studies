@@ -37,3 +37,21 @@ Before committing, ensure you run `generate_badges.sh` to update the README.md w
 ```bash
 ./generate_badges.sh
 ```
+
+### Util scripts
+
+#### Removing background of images
+
+Use the `remove_bkg.py` script to replace completely white pixels (255, 255, 255) of images, replacing them with alpha = 0 pixels.
+
+```
+python remove_bkg.py path/1.png path2.png --suffix "nobkg"
+```
+
+#### Cropping and ensuring regular width of images
+
+Use the `crop_resize.py` script to crop alpha = 0 broders and resize the image to a fixed width
+
+```
+python crop_resize.py path/1.png path2.png --suffix "crop" --new_width 700
+```
